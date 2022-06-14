@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(36, 219, 100) ;
+
+}
+#show_sketch {
+    margin-top: 5px ;
+    float: right;
+}
+#Quick_draw {
+    color: rgb(35, 93, 71);
+    background-color: aliceblue;
+}
+@keyframes sketch{
+    from{box-shadow: 1px 1px 38px lightblue;}
+    to{box-shadow: 1px 1px 38px green;}
+}
+canvas{
+    margin-top: 90px;
+    background-color: cornsilk;
+    border: 5px grey;
+    animation-name: sketch ;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+#Object{
+    color: red;
+}
+#score{
+    float: left;
+
+}
+#timer{
+    float: right;
+}
